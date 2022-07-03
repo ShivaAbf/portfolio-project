@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --font-family:  'Poppins';
+    --second-font-family:'Playfair Display';
+  }
+  
+  body {
+    margin: 100px 0;
+    max-width: 100%;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .hero{
+    background-color: #F9F7FE;
+    padding: 160px 20px;
+    margin: 0px;
+  }
+
+  
+  .hero h1 {
+    font-size: 96px;
+    font-family: var(--second-font-family) ;
+    font-weight: 700;
+  }
+  
+  .hero h2{
+    font-size: 35px;
+   color: #272142; 
+   font-family: var(--font-family);
+   line-height: 54px;
+   font-weight: 700;
+  }
+  
+  .hero h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    font-family:var(--font-family);
+    font-weight: 400;
+    line-height: 36px;
+    color: #272142;
+  }
+
+  .app-name{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: var(--second-font-family);
+  }
+  
+  p {
+    background: var(--secondary-color);
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  .yoga-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+
+  .text-center{
+    background-color: white;
+  }
+  
+  .yoga-link:hover {
+    background-color: var(--primary-color);
+    color: blue;
+  }
+  
+  @media (max-width: 576px) { 
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  .yoga-link{
+   width: 100%;
+   padding: 20px 0px 20px 0px;
+  }
+
+  .app-name{
+    font-size: 44px;
+  }
+  }
