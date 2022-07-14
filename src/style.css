@@ -7,7 +7,7 @@
   }
   
   body {
-    margin: 100px 0;
+    /* margin: 100px 0; */
     max-width: 100%;
   }
   
@@ -165,7 +165,121 @@
     line-height: 21px;
 
   }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family);
+    color: #272142B2;
+  }
+
+  .navbar a:hover{
+    color: var(--primary-color)
+  }
+
+  .active a{
+    color: var(--primary-color);
+  }
   
+  .navbar li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  .navbar ul{
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+
+  .small-logo{
+    max-width: 40px;
+  } 
+
+  .Shiva-pic img{
+    max-width: 350px;
+    max-height: 650px;
+    border-radius: 20px;
+    
+    }
+
+  .Shiva-pic{
+   display: flex;
+   justify-content: end;
+  }
+
+  .about-email{
+    font-family: var(--font-family);
+   color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+  }
+
+  .about-email:hover{
+    color: var(--primary-color);
+  }
+
+  .social-links i{
+    margin: 50px 20px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 20px 20px;
+    border-radius: 50%;
+  }
+  
+  .social-links i:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+  
+  .contact-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 50px;
+    padding: 50px 100px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+ }
+
+ .contact-text h3{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-family: var(--second-font-family);
+  text-align: left;
+  margin-bottom: 10px;
+ }
+
+ .contact-text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--font-family);
+ }
+
+ .btn{
+   background-color: var(--primary-color);
+   padding: 23px 23px;
+   margin-top: 25px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+ }
+ footer{
+   margin-top: 150px ;
+ }
   @media (max-width: 576px) { 
   h1{
     font-size: 40px;
@@ -188,5 +302,13 @@
   .about{
     text-align: center;
     margin-top: 0;
+  }
+
+  .navbar li{
+    margin-right: 10px;
+  }
+
+  .Shiva-pic{
+    display: block;
   }
   }
